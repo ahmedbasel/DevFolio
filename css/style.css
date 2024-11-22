@@ -1,0 +1,256 @@
+body{
+    font-family: "Roboto", sans-serif;
+
+background-color: rgba(128, 128, 128, 0.147);
+}
+/* ---------------navbar-------------- */
+#navbar{
+    background-color: #000000;
+}
+.nav-item .nav-link{
+color: white;
+
+}
+navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+.navbar-toggler{
+    
+    background-color: white;
+}
+
+/* ---------------header-home-------------- */
+#home{
+    background: linear-gradient(#00000094,#00000090 ),url(../imgs/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text h1{
+    font-size: calc(2.375rem + 1.5vw);
+
+}
+.anm::after{
+    content: " ";
+    animation: 10s typing  infinite;
+  
+    
+}
+/* ---------------about-home-------------- */
+
+#about p{
+    color: #4e4e4e;
+}
+.about-info{
+    margin-top: 30px;
+}
+/* ---------------services-------------- */
+#Services p{
+    color: #4e4e4e;
+}
+.card .ico-circle{
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card .ico-circle:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #0077ff49;
+
+}
+/* ---------------numbers-------------- */
+#numbers{
+    background: linear-gradient(#00000094,#00000090 ),url(../imgs/post-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    height: 90vh;
+    position: relative;
+   
+}
+.layer{
+    background-color: #0077ff93;
+    position: absolute;
+    height: 100%;
+  
+    left: 0;
+    right: 0;
+    align-items: center;
+
+}
+.icon-num .ico-circle{
+    box-shadow: 0 0 0 10px #f5f5f5a8;
+    display: block;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* ---------------Portfolio-------------- */
+.main-ico span ,.web-pro{
+color: #0078ff;
+}
+.main-ico {
+    right: 20px;
+    bottom: 0;
+}
+.box{
+    overflow: hidden;
+}
+.card-img{
+transition: 1s;
+}
+.box:hover .card-img{
+transform: scale(1.2);
+}
+/* ---------------------Carousel---------------- */
+#Carousel{
+    background-image:url(../imgs/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+   
+}
+
+.layer2{
+    background-color: #0077ffbd;
+    position: absolute;
+    height: 70%;
+    left: 0;
+    right: 0;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+}
+
+/* ---------------------BLOG---------------- */
+
+.box2{
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    box-shadow: #000000;
+    border-radius: 5px;
+  
+}
+.box2-content p{
+   color:#4e4e4e; 
+}
+
+.imgbox2 img{
+    width: 15%;
+    border-radius: 50%;
+}
+.imgbox-icon span{
+    right: 5px;
+}
+.box2-content .span22{
+    background-color: #0078ff;
+    padding: 5px 15px;
+    border-radius: 10px;
+   
+}
+.sapn-travel{
+    transform: translateY(-20px);
+    
+}
+
+.box-a span:hover{
+    color:#0078ff;
+    transition: 0.6s;
+}
+/* ---------------contact-------------------------- */
+#contact{
+    background-image:url(../imgs/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    height: 110vh; */
+    background-attachment: fixed;
+}
+.layer3{
+    background-color: #0077ffbd;
+    padding: 80px 0;
+    height: 100%;
+  
+}
+.butn button{
+    background-color: #0078ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.address-icon span{
+    color: #0078ff;
+}
+.socials span{
+    color: black;
+}
+.get-contnet p{
+    color: #4e4e4e;
+}
+.socials .ico-circle{
+    box-shadow: 0 0 0  6px #0078ff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.contact-layer{
+    padding: 20px;
+
+    /* padding: 20px 15px;
+    margin-top: 30px; */
+}
+.socials span:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0  6px #0077ff57;
+    color: white;
+}
+/* -------------------foooter------------- */
+footer{
+    background: #0062d3;
+    height: 10vh;
+}
+
+
+
+
+
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    border-bottom: 1px solid;
+    color: white;
+    width: 90%;
+    transition: 0.8s all;
+}
+@media(min-width: 768px){
+
+    #numbers{
+        height: 60vh;
+    }
+    .layer{
+        align-items: start;
+    }
+    .text-icon{
+        position: absolute;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icon-num .ico-circle{
+        width:70px;
+        height: 70px;
+  }
+ 
+
+}

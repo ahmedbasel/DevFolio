@@ -1,0 +1,350 @@
+@keyframes typing{
+ 
+   
+    0%{
+        content: "D|";
+    }
+    2%{
+        content: "De|";
+    }
+    4%{
+        content: "De|";
+    }
+    6%{
+        content: "Des|";
+    }
+    8%{
+        content: "Desi|";
+    }
+    10%{
+        content: "Desig|";
+    }
+    12%{
+        content: "Desige|";
+    }
+
+    14%{
+        content: "Desigen|";
+    }
+
+    16%{
+        content: "Desigene|";
+    }
+
+    18%{
+        content: "Desigener|";
+    }
+/* ------------ */
+ 
+    20%{
+        content: "Desigen|";
+    }
+
+    21%{
+        content: "Desige|";
+    }
+   
+    22%{
+        content: "Desig|";
+    }
+   
+    23%{
+        content: "Desi|";
+    }
+   
+    24%{
+        content: "Des|";
+    }
+
+    /* Developer| */
+
+
+    26%{
+        content: "De|";
+    }
+    
+  28%{
+        content: "Dev|";
+    }
+   
+    
+    30%{
+        content: "Deve|";
+    }
+   
+    32%{
+        content: "Devel|";
+    }
+   
+    34%{
+        content: "Develo|";
+    }
+   
+    36%{
+        content: "Develop|";
+    }
+   
+
+    38%{
+        content: "Develope|";
+    }
+   
+    40%{
+        content: "Developer|";
+    }
+   
+
+    42%{
+        content: "Developer|";
+    }
+   
+
+   46%{
+        content: "Develope|";
+    }
+    47%{
+        content: "Develop|";
+    }
+    48%{
+        content: "Develo|";
+    }
+    49%{
+        content: "Devel|";
+    }
+    50%{
+        content: "Deve|";
+    }
+    51%{
+        content: "Dev|";
+    }
+    52%{
+        content: "De|";
+    }
+
+    53%{
+        content: "D|";
+    }
+    54%{
+        content: " |";
+    }
+
+
+    /* Freelancer| */
+    56%{
+        content: "f |";
+    }
+
+    58%{
+        content: "fr |";
+    }
+    60%{
+        content: "fre |";
+    }
+    62%{
+        content: "free |";
+    }
+    64%{
+        content: "freel |";
+    }
+
+    66%{
+        content: "freela |";
+    }
+    68%{
+        content: "freelan |";
+    }
+
+    70%{
+        content: "freelanc |";
+    }
+
+    72%{
+        content: "freelance |";
+    }
+    74%{
+        content: "freelancer |";
+    }
+
+ 
+    78%{
+        content: "freelance |";
+
+    }
+
+    79%{
+        content: "freelanc |";
+
+    }
+    80%{
+        content: "freelan |";
+
+    }
+    81%{
+        content: "freela |";
+
+    }
+    82%{
+        content: "freel |";
+
+    }
+
+    83%{
+        content: "free |";
+
+    }
+    84%{
+        content: "fre |";
+
+    }
+    85%{
+        content: "fr |";
+
+    }
+    86%{
+        content: "f |";
+
+    }
+    87%{
+        content: " |";
+
+    }
+
+
+/* Photographer| */
+
+ 87.5%{
+        content: "p |";
+
+    }
+
+
+    88%{
+        content: "ph |";
+
+    }
+
+
+    
+    88.5%{
+        content: "pho |";
+
+    }
+
+
+
+    89%{
+        content: "photo |";
+
+    }
+
+
+    89.5%{
+        content: "photog |";
+
+    }
+
+    
+    90%{
+        content: "photogr |";
+
+    }
+    
+    90.5%{
+        content: "photogra |";
+
+    }
+
+    
+    91%{
+        content: "photograp |";
+
+    }
+
+    91.5%{
+        content: "photograph |";
+
+    }
+
+    92%{
+        content: "photographe |";
+
+    }
+    92.5%{
+        content: "photographer |";
+
+    }
+
+
+
+
+    94%{
+        content: "photographe |";
+
+    }
+
+
+    94.2%{
+        content: "photograph |";
+
+    }
+
+
+    
+    94.4%{
+        content: "photograp |";
+
+    }
+
+
+
+    95%{
+        content: "photogra |";
+
+    }
+
+
+    95.2%{
+        content: "photogr |";
+
+    }
+
+    
+    95.4%{
+        content: "photog |";
+
+    }
+    
+    96%{
+        content: "photo |";
+
+    }
+
+    
+    96.2%{
+        content: "phot |";
+
+    }
+
+    96.4%{
+        content: "pho |";
+
+    }
+
+    97%{
+        content: "ph |";
+
+    }
+
+    98%{
+        content:"p |";
+
+    }
+
+    100%{
+        content: " |";
+
+    }
+
+
+
+}
